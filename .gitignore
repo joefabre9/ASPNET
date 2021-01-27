@@ -1,4 +1,4 @@
-# globs
+ # globs
 Makefile.in
 *.userprefs
 *.usertasks
@@ -10,6 +10,7 @@ autom4te.cache/
 *.tar.gz
 tarballs/
 test-results/
+
 
 # Mac bundle stuff
 *.dmg
@@ -80,6 +81,7 @@ $RECYCLE.BIN/
 *.user
 *.userosscache
 *.sln.docstates
+*appsettings.json
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
