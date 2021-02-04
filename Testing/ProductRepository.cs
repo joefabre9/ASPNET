@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Data;
+using Testing.Models;
+using Dapper;
 
 namespace Testing
 {
@@ -19,5 +21,9 @@ namespace Testing
             return _conn.Query<Product>("SELECT * FROM PRODUCTS;");
         }
 
+        IEnumerable<Product> IProductRepository.GetAllProducts()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
